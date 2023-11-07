@@ -66,3 +66,8 @@ function checkGameEnd() {
 function stopProp(e) {
   e.stopImmediatePropagation()
 }
+
+const restartButton = document.getElementById("restart-button")
+restartButton.addEventListener("click", () => {
+  location.reload()
+})

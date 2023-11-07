@@ -10,7 +10,7 @@ body {
   align-items: center;
   font-size: 3rem;
   flex-direction: column;
-  color: #000000;
+  color: #a7a7a7;
 }
 
 .title {
@@ -21,6 +21,20 @@ body {
   color: #000000;
   font-size: 1.5rem;
   margin-bottom: 10px;
+}
+
+#restart-button {
+  width: 100px;
+  height: 40px;
+  margin-bottom: 10px;
+  cursor: pointer;
+
+  border: none;
+  background-color: #8d8d8d;
+}
+
+#restart-button:hover {
+  background-color: #bbb;
 }
 
 .board {
